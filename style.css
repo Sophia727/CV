@@ -1,0 +1,100 @@
+/* generalities */
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+body {
+	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1em;
+	margin: 0;
+	color: #fbfcfd;
+    background-color: #030303;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+p{
+    font-weight: normal;
+    text-align: justify;
+    width: 100%;
+    padding: 30px;
+}
+/* header */
+header {
+	background-image: url(https://media.istockphoto.com/photos/black-sand-dune-black-sand-beach-macro-photography-background-texture-picture-id1314229916?b=1&k=20&m=1314229916&s=170667a&w=0&h=rEnib5wKaUR7M3J_9uHHV2PKR2E1E-ODAEe4Oj8pG_I=);
+	background-size: 90%;
+    height: 500px;
+	background-position: center;
+}
+nav {
+	text-align: center;
+	padding: 25px;
+}
+
+nav a {
+	text-align: center;
+	font-size: 1.5em;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 50px;
+	color: white;
+}
+h1{
+    color: orange;
+    font-weight: 700;
+    font-size: 3em;
+    padding: 100px 200px 0 200px;
+    margin: 0;
+}
+h2{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 0 200px 0 200px;
+    margin: 0;
+    text-transform: capitalize;
+}
+header button{
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* main */
+.container{
+    padding: 0 10px 0 10px ;
+    width: 100%;
+}
+.w-75{
+    color: white;
+    background-color: transparent;
+}
+#presentation{
+    padding-top: 50px;
+    margin: 0;
+    width: 1300px;
+}
+#presentation .img{
+    width: 400px;
+    float: right;
+}
+#presentation .card-body{
+    width: 950px;
+}
+#presentation .card-title{
+    padding: 10px;
+    color: orange;
+    border-top: rgb(176, 117, 6) 1px solid;
+    border-left: rgb(176, 117, 6) 1px solid;
+}
+
+
+
+
+/* CAROUSEL */
+.carouselExampleDark{
+    text-align: center;
+    width: 700px;
+}
