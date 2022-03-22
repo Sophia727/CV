@@ -23,6 +23,7 @@ p{
     width: 100%;
     padding: 30px;
 }
+
 /* header */
 header {
 	background-image: url(https://media.istockphoto.com/photos/black-sand-dune-black-sand-beach-macro-photography-background-texture-picture-id1314229916?b=1&k=20&m=1314229916&s=170667a&w=0&h=rEnib5wKaUR7M3J_9uHHV2PKR2E1E-ODAEe4Oj8pG_I=);
@@ -36,15 +37,13 @@ nav {
 }
 
 nav a {
-	text-align: center;
 	font-size: 1.5em;
 	display: inline-block;
-	vertical-align: middle;
 	margin: 0 50px;
 	color: white;
 }
 h1, h3, h4, h5{
-    color: orange;
+    color: #fc4902;
     font-weight: 700;
     margin: 0;
     text-transform: uppercase;
@@ -91,7 +90,7 @@ header button{
 }
 h3{
     padding: 10px;
-    color: orange;
+    color: #fc4902;
     border-bottom: rgb(176, 117, 6) 1px solid;
     border-left: rgb(176, 117, 6) 1px solid;
 }
@@ -99,7 +98,7 @@ h3{
 /* skills */
 
 h4{
-    border-bottom: orange solid 1px;
+    border-bottom: #fc4902 solid 1px;
     padding: 10px;
     margin: 20px;
     border-left: rgb(176, 117, 6) 1px solid;
@@ -118,13 +117,13 @@ h5{
 
 }
 .badge{
-    color: orange;
-    border: orange solid 1px;
+    color: #fc4902;
+    border: #fc4902 solid 1px;
     display: inline-block;
 
 }
 /*BUG*/.fa-badge-check{ 
-    color: orange;
+    color: #fc4902;
     display: block;
     
 }
@@ -144,3 +143,86 @@ h5{
 #carousel h3{
     margin: 30px;
 }
+/* contact-form */
+#contact{
+    display: block;
+    background-color: rgb(17, 17, 17);
+    width: 700px;
+    margin-left: 325px;
+    margin-top: 20px;
+
+}
+fieldset{
+    padding: 30px 80px 30px 80px ;
+    border-top: 1px solid #fc4902;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+#contact-form input{
+    background-color: transparent;
+    color: white;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#contact-form li{
+    list-style: none;
+    display: inline-block;
+
+}
+
+#contact-form legend {
+	font-size: 1.5em;
+    text-align: center; 
+}
+#contact-form .company{
+    margin: 0 0 0 200px;
+}
+#contact-form .individual{
+    margin: 0 0 0 50px;
+}
+#interests{
+    background-color: transparent;
+    color: white;
+    border-radius: 7px;
+    border: #fc4902 solid 1px;
+    width: 200px;
+}
+#message{
+    border: 1px solid #fc4902;
+    height: 200px;
+}
+
+form button{
+    width: 100px;
+    background-color: transparent;
+    color: #fc4902;
+    font-size: 1rem;
+    border: o#fc4902 solid 1px;
+    border-radius: 15px;
+
+}
+
+/* footer */
+
+footer li{
+    display: inline-block;
+    margin: 20px;
+}
+footer .fa-brands{
+    color: #fc4902;
+    font-size: 1.5rem;
+}
+footer nav, footer ul{
+	text-align: center;
+	padding: 25px;
+}
+
+footer nav a {
+	font-size: 1em;
+	display: inline-block;
+    text-align: right;
+	margin: 50px;
+	color: white;
