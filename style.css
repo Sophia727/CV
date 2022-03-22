@@ -91,8 +91,8 @@ header button{
 h3{
     padding: 10px;
     color: #fc4902;
-    border-bottom: rgb(176, 117, 6) 1px solid;
-    border-left: rgb(176, 117, 6) 1px solid;
+    border-bottom: #fc4902 1px solid;
+    border-left: #fc4902 1px solid;
 }
 
 /* skills */
@@ -101,7 +101,7 @@ h4{
     border-bottom: #fc4902 solid 1px;
     padding: 10px;
     margin: 20px;
-    border-left: rgb(176, 117, 6) 1px solid;
+    border-left: #fc4902 1px solid;
 }
 h5{
     text-align: center;
@@ -200,8 +200,9 @@ form button{
     background-color: transparent;
     color: #fc4902;
     font-size: 1rem;
-    border: o#fc4902 solid 1px;
+    border: #fc4902 solid 1px;
     border-radius: 15px;
+    display: block;
 
 }
 
@@ -226,3 +227,4 @@ footer nav a {
     text-align: right;
 	margin: 50px;
 	color: white;
+}
